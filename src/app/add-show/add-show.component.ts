@@ -9,7 +9,7 @@ import { Show } from "../models/show";
 })
 export class AddShowComponent {
   model = new Show("", "", null, "");
-  URL="http://localhost:3000"
+  URL="https://hapi-practice-uodxjalzjs.now.sh/shows"
   submitted = false;
 
   constructor() {}
