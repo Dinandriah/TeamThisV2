@@ -7,7 +7,7 @@ templateUrl: '../register-user/register-user.component.html',
 styleUrls: ['../register-user/register-user.component.scss']
 })
 export class RegisterUserComponent {
- URL = "http://localhost:3000"
+ URL = "https://hapi-practice-uodxjalzjs.now.sh/users"
 model = new User("","","","","","",0)
 submitted = false;
  
